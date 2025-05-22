@@ -1,4 +1,5 @@
 import { supabase } from "./supabase.js"; // Asegúrate de tener este archivo configurado con createClient
+import { mostrarRegistro } from "./registro.js";
 
 export function mostrarLogin() {
 document.querySelector("#app").innerHTML = `
